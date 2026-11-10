@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "titulo": "Grand Theft Auto V",
+        "categoria": "Jogos",
+        "plataforma": "PlayStation, Xbox, PC",
+        "nota": 10,
+        "status": "Concluído",
+        "capa": "https://infoglobo.com.br"
+    },
+    {
+        "id": "2",
+        "titulo": "Minecraft",
+        "categoria": "Jogos",
+        "plataforma": "Multiplataforma",
+        "nota": 7.8,
+        "status": "Jogando",
+        "capa": "https://gstatic.com"
+    },
+    {
+        "id": "3",
+        "titulo": "Vingadores: Ultimato",
+        "categoria": "Filmes",
+        "plataforma": "Disney+",
+        "nota": 9.5,
+        "status": "Assistido",
+        "capa": "https://wikimedia.org"
+    },
+    {
+        "id": "4",
+        "titulo": "Titanic",
+        "categoria": "Filmes",
+        "plataforma": "Paramount+",
+        "nota": 7.9,
+        "status": "Assistido",
+        "capa": "https://gstatic.com"
+    },
+    {
+        "id": "5",
+        "titulo": "Stranger Things",
+        "categoria": "Series",
+        "plataforma": "Netflix",
+        "nota": 5.0,
+        "status": "Não assistido",
+        "capa": "https://gstatic.com"
+    },
+    {
+        "id": "6",
+        "titulo": "La Casa de Papel",
+        "categoria": "Series",
+        "plataforma": "Netflix",
+        "nota": 9.9,
+        "status": "Concluído",
+        "capa": "https://gstatic.com"
+    }
+  ]

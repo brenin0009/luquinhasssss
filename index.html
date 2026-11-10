@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVALIAÇÃO DO BEIÇO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hub de Mídias</h1>
+        <p id="gerenciador">Gerenciador de Jogos, Filmes e Séries</p>
+    </header>
+
+    <main class="container">
+
+        <section class="painel-cadastro">
+            <h2>Adicionar à Lista de Mídia</h2>
+
+            <form action="" id="form_midia">
+                <input 
+                    type="text" 
+                    id="titulo" 
+                    placeholder="Ex: Iron Man"
+                    required
+                >
+
+                <select id="categoria" required>
+                    <option value="" disabled selected>Categoria</option>
+                    <option value="Jogos">Jogos</option>
+                    <option value="Filmes">Filmes</option>
+                    <option value="Series">Séries</option>
+                </select>
+
+                <input 
+                    type="text" 
+                    id="plataforma" 
+                    placeholder="Ex: Netflix"
+                    required
+                >
+
+                <input 
+                    type="number" 
+                    id="nota" 
+                    step="0.1" 
+                    min="0" 
+                    max="10" 
+                    placeholder="Ex: 0 a 10.0"
+                    required
+                >
+
+                <button type="submit" class="btn-salvar">
+                    Adicionar
+                </button>
+            </form>
+        </section>
+
+        <section class="painel-catalogo">
+            <div class="filtros">
+                <button class="ativo" data-categoria="Todos">Todos</button>
+                <button data-categoria="Jogos">Jogos</button>
+                <button data-categoria="Series">Series</button>
+                <button data-categoria="Filmes">Filmes</button>
+            </div>
+
+            <div id="catalogo-grid" class="grid">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
